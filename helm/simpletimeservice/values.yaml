@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: hiteshpawar87/simpletimeservice
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 5000
+
+resources: {}
